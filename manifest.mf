@@ -1,2 +1,0 @@
-main-class: src/by/epamtc/runner.BoxMachine
-class-path: out/by/epamtc/runner/
