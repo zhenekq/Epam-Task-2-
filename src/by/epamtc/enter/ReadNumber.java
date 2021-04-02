@@ -7,7 +7,7 @@ public class ReadNumber {
         Scanner scanner = new Scanner(System.in);
         while(!scanner.hasNextDouble()){
             scanner.nextLine();
-            System.out.println("Enter the integer number of balls");
+            System.out.println("Enter the integer number");
         }
         return scanner.nextDouble();
     }

@@ -10,7 +10,7 @@ public class Start {
         String BLUE_COLOR = "blue";
         Basket basket = new Basket();
         Enter.putBallInBasket(basket);
-        System.out.println("Weight of balls in basket is:" + Weight.getWeightOfBalls(basket));
+        System.out.println("Weight of balls in basket is: " + Weight.getWeightOfBalls(basket));
         System.out.println("Amount of blue balls is: " + Color.amountOfColoredBalls(basket, BLUE_COLOR));
 
     }
