@@ -9,12 +9,6 @@ public class Ball {
     private double weight;
 
     public Ball(String color, double weight) throws Exception {
-        if(weight <= 0){
-            throw new Exception("Weight might be more than 0!");
-        }
-        if(color == null){
-            throw new Exception("Color might be exists!");
-        }
         this.color = color;
         this.weight = weight;
     }
