@@ -21,7 +21,7 @@ public class Enter {
                 System.out.print("Enter positive weight of ball");
                 weightOfBall = ReadNumber.readDoubleNumber();
             }
-            System.out.println("The color of this ball is: ");
+            System.out.print("The color of this ball is: ");
             colorOfBall = ReadNumber.readString();
             while(colorOfBall == null || colorOfBall.isEmpty()){
                 System.out.print("Color can't be null");

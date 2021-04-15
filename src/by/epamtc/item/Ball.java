@@ -1,7 +1,5 @@
 package by.epamtc.item;
 
-import java.util.Objects;
-import java.util.concurrent.ExecutionException;
 
 public class Ball {
 

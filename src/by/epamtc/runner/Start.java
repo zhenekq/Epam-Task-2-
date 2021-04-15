@@ -1,9 +1,9 @@
 package by.epamtc.runner;
 
-import by.epamtc.color.Color;
+import by.epamtc.util.Color;
+import by.epamtc.util.Weight;
 import by.epamtc.enter.Enter;
 import by.epamtc.item.Basket;
-import by.epamtc.weight.Weight;
 
 public class Start {
     public static void main(String[] args) throws Exception {

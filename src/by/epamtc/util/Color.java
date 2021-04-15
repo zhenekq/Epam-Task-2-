@@ -1,4 +1,4 @@
-package by.epamtc.color;
+package by.epamtc.util;
 
 import by.epamtc.item.Ball;
 import by.epamtc.item.Basket;
