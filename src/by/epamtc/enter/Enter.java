@@ -5,6 +5,9 @@ import by.epamtc.item.Basket;
 
 public class Enter {
     public static void putBallInBasket(Basket basket) throws Exception {
+        if(basket == null){
+            //exception
+        }
         System.out.print("Enter amount of balls in basket: ");
         int amountOfBalls = ReadNumber.readIntegerNumber();
         while(amountOfBalls < 0){

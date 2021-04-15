@@ -7,7 +7,10 @@ import java.util.ArrayList;
 
 public class Color {
 
-    public static ArrayList<Ball> getColorOfBalls(Basket basket, String color){
+    private static ArrayList<Ball> getColorOfBalls(Basket basket, String color){
+        if(basket == null){
+            //exception
+        }
         ArrayList<Ball> colorList = new ArrayList<>();
         for(Ball ball: basket.getBalls()){
             if(ball.getColor().toLowerCase().equals(color.toLowerCase())){
